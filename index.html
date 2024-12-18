@@ -1,49 +1,74 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мой первый сайт</title>
-    <link rel="stylesheet" href="style.css"> <!-- Подключаем стили -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing</title>
+  <link rel="stylesheet" href="css/reset.css">   <!-- Сброс стилей -->
+  <link rel="stylesheet" href="css/fonts.css">   <!-- Подключение шрифтов -->
+  <link rel="stylesheet" href="css/styles.css">  <!-- Основные стили -->
 </head>
 <body>
-    <header>
-        <h1>Привет, я начинающий веб-разработчик!</h1>
-    </header>
-    
-    <main>
-        <section>
-            <h2>Обо мне</h2>
-            <p>Я только начинаю свой путь в веб-разработке. Мне нравится изучать HTML, CSS и в будущем я планирую освоить JavaScript. Я увлекаюсь созданием красивых, понятных и адаптивных веб-страниц.</p>
-        </section>
-        
-        <section>
-            <h2>Мои навыки</h2>
-            <ul>
-                <li>Основы HTML</li>
-                <li>Основы CSS</li>
-                <li>Немного JS (в будущем)</li>
-            </ul>
-        </section>
-        
-        <section>
-            <h2>Мои контакты</h2>
-            <p>Связаться со мной можно по электронной почте или в соцсетях:</p>
-            <p>Email: <a href="mailto:example@example.com">example@example.com</a></p>
-            <p>Мой профиль на <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></p>
-        </section>
-        
-        <section>
-            <h2>Моя фотография</h2>
-            <!-- Замените "my_photo.jpg" на реальное имя вашего файла изображения -->
-            <img src="my_photo.jpg" alt="Моя фотография" width="200">
-        </section>
-    </main>
-    
-    <footer>
-        <p>&copy; 2024 Мой первый сайт</p>
-    </footer>
+  <header class="header">
+    <div class="container">
+      <div class="header-inner">
+        <div class="logo">Landing</div>
+        <nav class="nav">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <a href="#" class="btn-buy">Buy Now</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1>Introduce Your Product Quickly & Effectively</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        <div class="hero-buttons">
+          <a href="#" class="btn-primary">Purchase UI Kit</a>
+          <a href="#" class="btn-secondary">Learn More</a>
+        </div>
+      </div>
+      <div class="hero-illustration">
+        <img src="images/illustration.png" alt="Illustration">
+      </div>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="container features-content">
+      <div class="features-text">
+        <h2>Light, Fast & Powerful</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        <div class="feature-list">
+          <div class="feature-item">
+            <img src="images/icon1.png" alt="Icon">
+            <h3>Title Goes Here</h3>
+            <p>Lorem ipsum dolor sit...</p>
+          </div>
+          <div class="feature-item">
+            <img src="images/icon2.png" alt="Icon">
+            <h3>Title Goes Here</h3>
+            <p>Lorem ipsum dolor sit...</p>
+          </div>
+        </div>
+      </div>
+      <div class="features-illustration">
+        <img src="images/mobile.png" alt="Mobile illustration">
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2024 Company Name</p>
+    </div>
+  </footer>
 </body>
 </html>
-
