@@ -1,0 +1,37 @@
+/* reset.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Учитываем padding и border в размеры элемента */
+}
+
+html {
+    scroll-behavior: smooth; /* Плавная прокрутка */
+}
+
+body {
+    line-height: 1.5; /* Межстрочный интервал */
+    font-family: Arial, sans-serif; /* Базовый шрифт */
+}
+
+img {
+    max-width: 100%; /* Изображения не выходят за пределы контейнера */
+    height: auto;
+    display: block;
+}
+
+ul, ol {
+    list-style: none; /* Убираем маркеры у списков */
+}
+
+a {
+    text-decoration: none; /* Убираем подчеркивание ссылок */
+    color: inherit; /* Наследуем цвет текста */
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font: inherit;
+}
